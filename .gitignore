@@ -1,0 +1,46 @@
+# Node.js (backend & frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# React build
+frontend/build/
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Linux and Windows system files
+Thumbs.db
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Minikube
+.kube/
+.minikube/
+*.pem
+
+# Kubernetes local files
+*.yaml~
+*.tmp
+
+# Logs
+logs/
+*.log
+backend/debug.log
+frontend/debug.log
+
+# Misc
+dist/
+coverage/
